@@ -1,0 +1,43 @@
+.meta-container {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 37px;
+    -ms-grid-columns: 1fr;
+    grid-template-rows: auto;
+    display: grid;
+    grid-auto-columns: 1fr;
+    .meta-column-container {
+        display: flex;
+        .meta-column {
+            width: 100%;
+            max-width: 190px;
+            margin-right: 74px;
+            &:last-child {
+            margin-right: 0;
+            }
+            .meta {
+            border-bottom-width: 0;
+            color: #37364d;
+            font-size: 16px;
+            font-weight: 700;
+            }
+            .meta-light {
+            color: rgba(55, 54, 77, 0.6);
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .meta-container {
+        grid-template-columns: 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 32px;
+        .meta-column-container{
+          flex-direction: column;
+        }
+    }
+}

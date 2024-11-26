@@ -1,0 +1,57 @@
+
+
+.purpose .container{
+  position: unset;
+}
+.purpose h1{
+  position: absolute;
+  top:-50px;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  margin: auto;
+  height:100px;
+  text-align:center;
+  padding:0px 100px;
+  font-size: 38px;
+  @media screen and (max-width: 900px) {
+    padding:0px 15px;
+  }
+}
+
+.scrollDown{
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  left:0px;
+  right:0px;
+  width: 50px;
+  margin: auto;
+  bottom: 20px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(60px);
+  }
+}
+
+svg #wheel {
+  animation: scroll ease 2s infinite;
+}
+
+.aboutUsBanner{
+  background-image: url('../img/Layer3.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatWeDo{
+  button.slick-arrow {
+    display: none !important;
+  }
+  .slick-dots{
+    bottom: -50px;
+  }
+}

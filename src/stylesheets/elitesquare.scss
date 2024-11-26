@@ -1,0 +1,97 @@
+.elitesquare-portfolio{
+  margin-bottom: 40px;
+  max-width: 1030px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 36px;
+  .header-img-container {
+      margin: 40px 0px;
+      background-size: contain;
+      display: flex;
+      .header_img {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+        animation: float 4s ease-in-out infinite;
+        height: 100%;
+      }
+  }
+  .design {
+    margin-top: 61px;
+    .design_title {
+      color: #37364d;
+      font-size: 70px;
+      line-height: 80px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .desgin_content {
+      color: #676d73;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 56px;
+      letter-spacing: -0.024em;
+    }
+  } 
+  .subtitle {
+    color: #37364d;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .features-title{
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #2E74B5;
+  }
+  .elit-flow-container{
+    display: flex;
+    .elitsquare-landing-page{
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+    }
+    .fifty{
+      width: 50%;
+    }
+    .MuiTimelineItem-missingOppositeContent{
+      &::before{
+        flex: 0;
+        padding: 0;
+      }
+    }
+    .MuiTimelineContent-root {
+      padding: 0px 16px 6px;
+      .subtitle{
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .elitesquare-portfolio{
+    .design{
+      margin-bottom: 6rem;
+      .design_title{
+        font-size: 28px;
+        line-height: 45px;
+      }
+      .desgin_content{
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+    .subtitle{
+      font-size: 19px;
+      line-height: 35px;
+    }
+    .elit-flow-container{
+        height: auto;
+    }
+    .features-title{
+      font-size: 17px;
+    }
+  }
+}

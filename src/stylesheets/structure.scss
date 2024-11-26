@@ -1,0 +1,360 @@
+/*margins*/
+.ma {
+  margin: auto;
+  left: 0px;
+  right: 0px;
+}
+
+.t0 {
+  top: 0;
+}
+.t6 {
+  top: 6rem;
+}
+.t12 {
+  top: 12rem;
+}
+
+.mt0 {
+  margin-top: 0rem;
+}
+.mt1 {
+  margin-top: 1rem;
+}
+.mt2 {
+  margin-top: 2rem;
+}
+.mt3 {
+  margin-top: 3rem;
+}
+.mt4 {
+  margin-top: 4rem;
+}
+.mt5 {
+  margin-top: 5rem;
+}
+.mt6 {
+  margin-top: 6rem;
+}
+.mt7 {
+  margin-top: 7rem;
+}
+.mt8 {
+  margin-top: 8rem;
+}
+.mt10 {
+  margin-top: 10rem;
+}
+.mt11 {
+  margin-top: 11rem;
+}
+.mt12 {
+  margin-top: 12rem;
+}
+.mt14 {
+  margin-top: 14rem;
+}
+.mt17 {
+  margin-top: 17rem;
+}
+
+.mt-1 {
+  margin-top: -1rem;
+}
+.mt-2 {
+  margin-top: -2rem;
+}
+.mt-3 {
+  margin-top: -3rem;
+}
+.mt-4 {
+  margin-top: -4rem;
+}
+.mt-5 {
+  margin-top: -5rem;
+}
+.mt-6 {
+  margin-top: -6rem;
+}
+.mt-7 {
+  margin-top: -7rem;
+}
+.mt-8 {
+  margin-top: -8rem;
+}
+.mt-9 {
+  margin-top: -9rem;
+}
+.mt-10 {
+  margin-top: -10rem;
+}
+.mt-11 {
+  margin-top: -11rem;
+}
+.mt-12 {
+  margin-top: -12rem;
+}
+.mt-15 {
+  margin-top: -15rem;
+}
+
+.mr1 {
+  margin-right: 1rem;
+}
+.mr2 {
+  margin-right: 2rem;
+}
+.mr3 {
+  margin-right: 3rem;
+}
+.mr4 {
+  margin-right: 4rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+.mb2 {
+  margin-bottom: 2rem;
+}
+.mb3 {
+  margin-bottom: 3rem;
+}
+.mb4 {
+  margin-bottom: 4rem;
+}
+.mb5 {
+  margin-bottom: 5rem;
+}
+.mb6 {
+  margin-bottom: 6rem;
+}
+.mb7 {
+  margin-bottom: 7rem;
+}
+.mb8 {
+  margin-bottom: 8rem;
+}
+.mb10 {
+  margin-bottom: 10rem;
+}
+.mb11 {
+  margin-bottom: 11rem;
+}
+.mb12 {
+  margin-bottom: 12rem;
+}
+.mb13 {
+  margin-bottom: 13rem;
+}
+.mb14 {
+  margin-bottom: 14rem;
+}
+.mb20 {
+  margin-bottom: 20rem;
+}
+
+.ml1 {
+  margin-left: 1rem;
+}
+.ml2 {
+  margin-left: 2rem;
+}
+.ml3 {
+  margin-left: 3rem;
+}
+.ml4 {
+  margin-left: 4rem;
+}
+.ml5 {
+  margin-left: 5rem;
+}
+
+/*paddings*/
+.pt2 {
+  padding-top: 2rem;
+}
+.pt8 {
+  padding-top: 8rem;
+}
+
+.pl2 {
+  padding-left: 2rem;
+}
+.pl3 {
+  padding-left: 3rem;
+}
+
+.pr2 {
+  padding-right: 2rem;
+}
+.pr3 {
+  padding-right: 3rem;
+}
+
+.pb2 {
+  padding-bottom: 2rem;
+}
+.pb8 {
+  padding-bottom: 8rem;
+}
+/*floats*/
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+
+/*aligns*/
+.alignCenter {
+  text-align: center;
+}
+
+/*widths*/
+.wdPer100 {
+  width: 100%;
+}
+.wdPer80 {
+  width: 80%;
+}
+
+.wdPer65 {
+  width: 65%;
+}
+.wdPer50 {
+  width: 50%;
+}
+.wdPer45 {
+  width: 45%;
+}
+.wdPer40 {
+  width: 40%;
+}
+.wdPer33 {
+  width: 33.333%;
+}
+.wdPer25 {
+  width: 25%;
+}
+
+/*displays*/
+.displayBlock {
+  display: block !important;
+}
+.displayNone {
+  display: none;
+}
+.displayInlineBlock {
+  display: inline-block;
+}
+
+/*overflow*/
+.overFlowHidden {
+  overflow: hidden;
+}
+
+/*lineheights*/
+.lh1-8 {
+  line-height: 1.6 !important;
+}
+
+/*background colors*/
+.backgroundF7F7F7 {
+  background: #f7f7f7;
+}
+.backgroundF4F5F7 {
+  background: #f4f5f7;
+}
+.backgroundFFFFFF {
+  background: #ffffff;
+}
+.backgroundPrimaryGradient {
+  background: linear-gradient(0deg, #f11116 0%, #ff6700 100%);
+  background: -moz-linear-gradient(0deg, #f11116 0%, #ff6700 100%);
+  background: -webkit-linear-gradient(0deg, #f11116 0%, #ff6700 100%);
+}
+
+/*colors*/
+.colorOrange {
+  color: #ff6700;
+  fill: #f11116;
+}
+.colorWhite {
+  color: #ffffff;
+}
+.color0082FF {
+  color: #0082ff;
+}
+
+/*border Radius*/
+.borderRadius5 {
+  border-radius: 5px;
+}
+.borderRadius7 {
+  border-radius: 7px;
+}
+
+/*shadows*/
+.shadowPremium {
+  box-shadow: -10px 0px 19px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*positions*/
+.absolute {
+  position: absolute !important;
+}
+.relative {
+  position: relative;
+}
+
+/*borders*/
+.bNON {
+  border: none;
+  outline: none;
+}
+.bNON:focus {
+  border: none;
+  outline: none;
+}
+
+.borderTopPrimary:before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background: linear-gradient(0deg, #f11116 0%, #ff6700 100%);
+  background: -moz-linear-gradient(0deg, #f11116 0%, #ff6700 100%);
+  background: -webkit-linear-gradient(0deg, #f11116 0%, #ff6700 100%);
+}
+
+.borderSmallF1F1F1 {
+  border: 1px solid #f1f1f1;
+}
+
+/*z indexes*/
+.z1 {
+  z-index: 1;
+}
+.z0 {
+  z-index: 0;
+}
+
+/*tags*/
+.tag {
+  color: white;
+  padding: 3px 5px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-family: Markpro;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.tag.yellow {
+  background: #fbbd0e;
+}
+
+/*fonts*/
+.markProBold {
+  font-family: Markpro-Bold;
+}

@@ -1,0 +1,164 @@
+.flagio-portfolio{
+    margin-bottom: 40px;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 36px;
+    .header-img-container {
+        margin: 40px 0px;
+        background-size: contain;
+        display: flex;
+        .header_img {
+          width: 50%;
+          margin: 0 auto;
+          border-radius: 10px;
+          animation: float 4s ease-in-out infinite;
+          height: 100%;
+        }
+    }
+    .header-background-banner {
+        position: absolute;
+        top: -500px;
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+    }
+    .design {
+        margin-top: 61px;
+        .design_title {
+          color: #37364d;
+          font-size: 70px;
+          line-height: 80px;
+          font-weight: 700;
+          margin-bottom: 16px;
+        }
+        .desgin_content {
+          color: #676d73;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 56px;
+          letter-spacing: -0.024em;
+          margin-bottom: 150px;
+        }
+    }
+    .subtitle{
+        color: #37364d;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+    }
+    .brief-container{
+        height: 700px;
+        display: flex;
+        .about-us-img{
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+        }
+    }
+    .flow-container{
+        .website-list{
+            padding-left: 30px;
+            color: #676d73;
+        }
+    }
+    .full-width-img{
+        display: flex;
+        img{
+            width: 70%;
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+            margin: 0 auto;
+            max-height: 100%;
+        }
+    }
+    .side-by-side-img{
+        img{
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+            width: calc(50% - 15px);
+            margin: 0;
+            &:first-child{
+                margin-right: 10px;
+            }
+        }
+    }
+    .collage-images-container{
+        position: relative;
+        display: flex;
+        max-width: 1030px;
+        margin: auto;
+        height: calc(72vw);
+        max-height: 1050px;
+        .more-info-img{
+            max-width: 47.5%;
+            position: absolute;
+            margin: auto;
+            left: 0px;
+            z-index: 0;
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+        }
+        .about-us-img {
+            position: absolute;
+            max-width: 47.5%;
+            margin: auto;
+            z-index: 0;
+            top: 0px;
+            right: 0px;
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+        }
+        .signin-img {
+            position: absolute;
+            max-width: 40%;
+            margin: auto;
+            right: -15px;
+            top: 62%;
+            z-index: 1;
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 10px 15px;
+        }
+        .landing-page-img{
+            position: absolute;
+            max-width: 40%;
+            margin: auto;
+            left: 10%;
+            z-index: 1;
+            top:41%;
+            border-radius: 10px;
+            box-shadow: rgba(61, 42, 42, 0.1) 0px 5px 15px;
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .flagio-portfolio{
+        .collage-images-container{
+            height: 82vw;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .flagio-portfolio{
+        .design{
+            margin-bottom: 6rem;
+            .design_title{
+              font-size: 32px;
+              line-height: 56px;
+            }
+            .desgin_content{
+              margin-bottom: 30px;
+              font-size: 21px;
+              line-height: 36px;
+            }
+        }
+        .subtitle{
+            font-size: 21px;
+            line-height: 35px;
+        }
+        .brief-container{
+            height: auto;
+        }
+    }
+}
